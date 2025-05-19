@@ -3,7 +3,7 @@ Avl tree is self-balancing binary search tree. It is balanced if for each node t
 Long story short this means that operations like insert, delete and search have O(log n) time complexity.
 
 ##  Is this useful?
-In a way you can think of it as slightly less performant version of std::set (usually implemented as RB tree) with fewer features. 
+In a way you can think of this AVL implementation as slightly less performant version of std::set (usually implemented as RB tree) with fewer features. 
 But it is useful for learning purposes and understanding how self-balancing trees work.
 My implementation is clearly not optimal unlike the one in the standard library, but it is functional and can be used for educational purposes.
 
